@@ -22,3 +22,5 @@ vim.opt.mouse = "a"            -- Enable mouse
 vim.opt.splitright = true      -- Vertical splits go right
 vim.opt.splitbelow = true      -- Horizontal splits go below
 
+-- All yanks to the clipboard
+vim.opt.clipboard = "unnamedplus"

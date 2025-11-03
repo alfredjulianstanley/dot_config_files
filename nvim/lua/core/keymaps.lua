@@ -46,5 +46,4 @@ vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Previous diagnosti
 
 -- Format file
 vim.keymap.set("n", "<leader>f", function()
-  vim.lsp.buf.format({ async = true })
-end, { desc = "Format file" })
+  vim.lsp.buf.format({ async = true })end, { desc = "Format file" })
